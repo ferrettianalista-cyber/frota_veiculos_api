@@ -1,15 +1,15 @@
 import express from 'express'
-import veiculoRouter from './config/routes/veiculo.routes.js'
+import veiculosRouter from './routes/veiculos.routes.js'
 
 const app = express()
 const port = 3000
 
 app.use(express.json())
 
-app.use('/veiculo' ,veiculoRouter)
+app.use('/veiculos', veiculosRouter)
 
 app.listen(port, ()=> {
-    console.log('app rodando em http://localhost:3000');
+console.log('app rodando em http://localhost:3000');
 
 })
 

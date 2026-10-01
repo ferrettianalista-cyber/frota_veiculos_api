@@ -23,4 +23,4 @@ class veiculosServices {
         return resultado.rows;
     }
 }
-    export default new veiculoServices();
+    export default new veiculosServices();

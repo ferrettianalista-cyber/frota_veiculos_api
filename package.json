@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "node --watch src/server.js"
+   
   },
   "dependencies": {
     "dotenv": "^18.0.5",
